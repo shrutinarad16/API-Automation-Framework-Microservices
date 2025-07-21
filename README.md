@@ -58,3 +58,11 @@ src/
 yaml
 Copy
 Edit
+
+
+## 👩‍💻 Author
+
+**Shruti Narad**  
+💼 Software Engineer | 💡 Problem Solver | 🔐 Passionate about Clean Code  
+📧 shrutinarad06@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/shrutinarad16) | [GitHub](https://github.com/shrutinarad16)
