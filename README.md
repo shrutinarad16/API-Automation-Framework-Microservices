@@ -1,23 +1,60 @@
-# Selenium Framework project for testing e-commerce website.
+# 🔗 API Automation Framework (Microservices)
 
-The project uses Selenium with Java, Maven and TestNG framework. 
-Designed with POM pattern.
-Supports Multiple Browsers.
-Supports Headless Running.
-Generates ExtentReport with screenshots of failed scripts.
+A complete API Test Automation Framework for E-Commerce Microservices using Java and RestAssured. This project automates and validates critical backend services such as registration, login, product search, cart, wishlist, checkout, and account management.
 
-## I tested these functionalities:
-* Registration
-* Logging in
-* Logging out
-* Changing Language
-* Entering email for Newsletter
-* Searching
-* Saving and removing Items from the Wishlist
-* Adding and removing Items from the cart
-* Checking out 
-* Closing Account
+---
 
+## 🚀 Tech Stack
 
-### Note: This project was for learning purposes and used a real website so some tests may fail over time.
-#### Thanks 
+- Java 11+
+- RestAssured
+- TestNG
+- Maven
+- Allure Reports
+- JSON Schema Validation
+- Git & Jenkins (for CI/CD)
+
+---
+
+## ✅ Features Automated
+
+This framework covers comprehensive API validations for:
+
+- 📝 **User Registration**  
+- 🔐 **Login / Logout**  
+- 🌐 **Change Language Preference**  
+- 📩 **Subscribe to Newsletter (Email entry)**  
+- 🔍 **Product Search**  
+- ❤️ **Add/Remove Items from Wishlist**  
+- 🛒 **Add/Remove Items from Cart**  
+- 💳 **Checkout Process**  
+- ❌ **Close/Delete Account**
+
+Each API is tested for:
+
+- Response Status Code  
+- Response Time  
+- Valid JSON Schema  
+- Positive & Negative Test Cases  
+- Authorization and Header Validation  
+- Data-driven Tests via TestNG
+
+---
+
+## 📂 Project Structure
+
+src/
+├── test/java
+│ ├── tests/ # Test classes for each module (LoginTests, CartTests, etc.)
+│ ├── utils/ # Base test setup, reusable utilities
+│ ├── specifications/ # Request/Response specification builders
+│ ├── payloads/ # JSON body generation methods
+├── resources/
+│ ├── testdata.json # Test input data
+│ ├── schema/ # JSON schema files for validation
+├── pom.xml
+└── testng.xml
+
+yaml
+Copy
+Edit
